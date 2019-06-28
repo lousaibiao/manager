@@ -1,0 +1,18 @@
+spring:
+  profiles: dev
+  output:
+    ansi:
+      enabled: always
+
+server:
+  port: 8080
+lou:
+  id: 11
+  values:
+    - lou
+    - sai
+    - biao
+logging:
+  file:
+    max-size: 15MB
+  path: logs

@@ -1,0 +1,10 @@
+spring:
+  profiles: prod
+server:
+  port: 8081
+lou:
+  id: 11
+  values:
+    - lou
+    - sai
+    - biao
